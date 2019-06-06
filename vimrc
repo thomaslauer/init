@@ -69,4 +69,3 @@ set noerrorbells
 set mouse=a
 
 set ruler
-
