@@ -1,9 +1,10 @@
 #!/bin/bash
 
-echo "Hello world"
-
 # install vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# install tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # install vimrc and tmux.conf
 cp vimrc ~/.vimrc
